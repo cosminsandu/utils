@@ -1,0 +1,21 @@
+{
+    "name": "cosminsandu/utils",
+    "description": "Some utilities",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CosminSandu\\Utils\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cosmin SANDU",
+            "email": "contact@cosminsandu.ro"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
