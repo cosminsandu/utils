@@ -18,7 +18,5 @@ jobs:
                       ${{ runner.os }}-php-
             - name: Install dependencies
               run: composer install --prefer-dist --no-progress
-            - name: Run test suite
-              run: composer run-script test
-            - name: Code Coverage Report
-              uses: romeovs/lcov-reporter-action@v0.2.11
+            - name: phpunit-coverage-badge
+              uses: timkrase/phpunit-coverage-badge@v1.2.0
