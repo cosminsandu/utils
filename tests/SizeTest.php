@@ -31,11 +31,5 @@ class SizeTest extends TestCase
         self::assertEquals("-1.95 KB", Size::readableBytes(-2000));
         self::assertEquals("8 EB", Size::readableBytes(PHP_INT_MAX ));
         self::assertEquals("-8 EB", Size::readableBytes(PHP_INT_MIN ));
-
-
-
-
     }
-
-
 }
